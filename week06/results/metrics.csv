@@ -1,0 +1,13 @@
+﻿model,split,n_samples,mae,rmse,selected
+last_value,train,8616,0.736563,1.066672,False
+last_value,validation,2880,0.608238,0.925271,False
+last_value,test,2880,0.420152,0.592978,False
+window_mean,train,8616,1.839804,2.419047,False
+window_mean,validation,2880,1.402924,1.879948,False
+window_mean,test,2880,1.033188,1.342148,False
+lag_linear,train,8616,0.718913,1.043134,False
+lag_linear,validation,2880,0.598923,0.910183,False
+lag_linear,test,2880,0.422645,0.584538,False
+ridge_tuned,train,8616,0.718948,1.043135,True
+ridge_tuned,validation,2880,0.598961,0.910179,True
+ridge_tuned,test,2880,0.422652,0.584526,True
