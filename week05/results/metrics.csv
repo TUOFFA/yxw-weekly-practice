@@ -1,0 +1,5 @@
+﻿model,learning_rate,best_epoch,train_MAE,train_RMSE,validation_MAE,validation_RMSE,test_MAE,test_RMSE,selected_mlp,metric_scale
+Mean baseline,,,64.6565,77.3308,67.5162,76.1614,66.7289,76.9057,False,original target units
+LinearRegression,,,44.2874,54.2849,38.2213,49.1497,46.7240,56.9703,False,original target units
+MLP + SGD,0.0100,167.0000,40.6919,50.6590,38.0310,50.4665,,,False,original target units
+MLP + Adam,0.0010,88.0000,40.6495,50.7106,38.2201,49.8631,46.1523,55.9007,True,original target units

@@ -1,0 +1,10 @@
+Week 03: multi-feature regression and Ridge comparison
+=======================================================
+Data: sklearn load_diabetes(as_frame=True, scaled=False); 10 features + target.
+Fixed random seed: 42; samples: train=265, validation=88, test=89.
+Inputs: bmi only for the single-feature model; all 10 features for the multi-feature models.
+Preprocessing: StandardScaler fitted on the training features only; target left unscaled.
+Baseline: training-target mean = 151.026415.
+Ridge candidates: alpha=1, alpha=100; SELECTED by validation RMSE only: Ridge alpha=1.
+The test set was evaluated once after alpha selection and was not used for tuning.
+Weights in multifeature_weights.csv use standardized inputs; they are not causal effects.

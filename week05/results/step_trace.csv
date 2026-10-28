@@ -1,0 +1,4 @@
+﻿stage,weight,bias,weight_grad,bias_grad,loss
+after_zero_grad,0.000000,0.000000,,,10.000000
+after_backward,0.000000,0.000000,-10.000000,-6.000000,
+after_step,1.000000,0.600000,-10.000000,-6.000000,1.060000
