@@ -1,0 +1,12 @@
+﻿model,split,n_samples,hidden_size,best_epoch,mae,rmse,chosen_lstm
+last_value,train,8616,,,0.736563,1.066672,False
+last_value,validation,2880,,,0.608238,0.925271,False
+last_value,test,2880,,,0.420152,0.592978,False
+lag_linear,train,8616,,,0.718913,1.043134,False
+lag_linear,validation,2880,,,0.598923,0.910183,False
+lag_linear,test,2880,,,0.422645,0.584538,False
+lstm_h16,train,8616,16.000000,38.000000,0.730946,1.051687,False
+lstm_h16,validation,2880,16.000000,38.000000,0.600201,0.914489,False
+lstm_h32,train,8616,32.000000,39.000000,0.719675,1.047373,True
+lstm_h32,validation,2880,32.000000,39.000000,0.597546,0.914153,True
+lstm_h32,test,2880,32.000000,39.000000,0.448564,0.609383,True
