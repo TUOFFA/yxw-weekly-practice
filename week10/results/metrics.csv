@@ -1,0 +1,5 @@
+﻿model,split,n_samples,mae,rmse,result_source_or_best_epoch
+last_value,validation,2880,0.608238214,0.925271074,"same validation targets, no training"
+lstm_h32,validation,2880,0.597546000,0.914153000,"week07 selected model, epoch 39"
+single_head_attention,validation,2880,1.238917861,1.594347541,"week08 selected model, epoch 37"
+one_layer_transformer_encoder,validation,2880,0.594753394,0.905675219,week10 best epoch 33

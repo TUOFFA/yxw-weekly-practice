@@ -1,0 +1,2 @@
+﻿target_time,window_start,window_end,hour_1_ot,hour_24_ot,target_ot,score_24_3,weight_24_3,last_weight_sum,context_recovery_max_abs_error,original_context_recovery_max_abs_error,mean_context_check_max_abs_error,last_context_check_max_abs_error,prediction_ot,original_prediction_ot,mean_prediction_ot,last_prediction_ot
+2017-06-26 00:00:00,2017-06-25 00:00:00,2017-06-25 23:00:00,21.245000839,20.752000809,20.962999344,2.647862196,0.045051068,1.000000000,0.000000000,0.000000000,0.000000000,0.000000000,20.558066299,20.558066299,20.505846792,20.030359496

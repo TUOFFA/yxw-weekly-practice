@@ -1,0 +1,70 @@
+{
+  "split_counts": {
+    "train": 8616,
+    "validation": 2880,
+    "test": 2880
+  },
+  "training_mean": 17.1282616982271,
+  "training_std": 9.176491024944335,
+  "model_dim": 16,
+  "parameter_count": 865,
+  "best_epoch": 37,
+  "first_update": {
+    "loss": 1.6398248672485352,
+    "gradient_norms": {
+      "query": 0.015162957832217216,
+      "key": 0.023006826639175415,
+      "value": 4.560299396514893
+    },
+    "value_weight_changed_before_step": false,
+    "value_weight_changed_after_step": true,
+    "observed_index": [
+      0,
+      0
+    ],
+    "observed_gradient": -0.30067214369773865,
+    "observed_parameter_before": -0.07271969318389893,
+    "observed_parameter_after": -0.071719691157341
+  },
+  "window_checks": {
+    "target_time": "2017-06-26 00:00:00",
+    "window_start": "2017-06-25 00:00:00",
+    "window_end": "2017-06-25 23:00:00",
+    "hour_1_ot": 21.2450008392334,
+    "hour_24_ot": 20.75200080871582,
+    "target_ot": 20.96299934387207,
+    "score_24_3": 2.647862195968628,
+    "weight_24_3": 0.04505106806755066,
+    "last_weight_sum": 1.0,
+    "context_recovery_max_abs_error": 0.0,
+    "original_context_recovery_max_abs_error": 0.0,
+    "mean_context_check_max_abs_error": 0.0,
+    "last_context_check_max_abs_error": 0.0,
+    "prediction_ot": 20.558066298826997,
+    "original_prediction_ot": 20.558066298826997,
+    "mean_prediction_ot": 20.505846791661238,
+    "last_prediction_ot": 20.030359496256583
+  },
+  "swap_experiment": {
+    "first_hour": 3,
+    "first_time": "2017-06-25 02:00:00",
+    "first_ot": 21.525999069213867,
+    "second_hour": 18,
+    "second_time": "2017-06-25 17:00:00",
+    "second_ot": 21.38500022888184,
+    "comparisons": {
+      "without_position": {
+        "query_max_abs_difference": 0.0,
+        "swapped_weight_pair_max_abs_error": 0.0,
+        "context_max_abs_difference": 5.960464477539063e-08,
+        "prediction_abs_difference_ot": 0.0
+      },
+      "with_position": {
+        "query_max_abs_difference": 0.0,
+        "swapped_weight_pair_max_abs_error": 0.0070022642612457275,
+        "context_max_abs_difference": 0.000493168830871582,
+        "prediction_abs_difference_ot": 0.0005562598331216861
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+﻿causal_mask,changed_hour,observed_query_hour,head1_weight_to_hour18,head1_future_max_weight,head1_row_weight_sum,row6_output_max_abs_difference
+off,18,6,0.041784596,0.042626690,0.999999881,0.013831228
+on,18,6,0.000000000,0.000000000,1.000000000,0.000000000

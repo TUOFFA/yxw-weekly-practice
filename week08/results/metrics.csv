@@ -1,0 +1,5 @@
+﻿model_or_reading,split,n_samples,mae,rmse
+lstm_h32,validation,2880,0.597546000,0.914153000
+attention_original,validation,2880,1.238917861,1.594347541
+attention_mean_read,validation,2880,1.497818418,1.966357773
+attention_last_hour_read,validation,2880,0.862231734,1.138599644

@@ -1,0 +1,106 @@
+{
+  "data_path": "..\\week06\\data\\ETTh1.csv",
+  "split_counts": {
+    "train": 8616,
+    "validation": 2880,
+    "test": 2880
+  },
+  "training_mean": 17.1282616982271,
+  "training_std": 9.176491024944333,
+  "target_time": "2017-06-26 00:00:00",
+  "model_dim": 16,
+  "head_dim": 8,
+  "feedforward_dim": 32,
+  "parameter_count": 2273,
+  "best_epoch": 33,
+  "first_update": {
+    "loss": 1.9841476678848267,
+    "head1_query_grad_norm": 0.00740467756986618,
+    "predictor_grad_norm": 5.8406829833984375,
+    "query_changed_before_step": false,
+    "predictor_changed_before_step": false,
+    "query_changed_after_step": true,
+    "predictor_changed_after_step": true
+  },
+  "practice4": {
+    "same_weight_difference": 0.0,
+    "same_context_difference": 0.0,
+    "independent_weight_difference": 0.0005386359989643097,
+    "independent_context_difference": 1.8646190166473389,
+    "head_context_shape": [
+      1,
+      24,
+      8
+    ],
+    "concatenated_shape": [
+      1,
+      24,
+      16
+    ],
+    "mixed_shape": [
+      1,
+      24,
+      16
+    ]
+  },
+  "practice5": {
+    "changed_standardized_value": 1.0,
+    "unmasked": {
+      "causal_mask": "off",
+      "changed_hour": 18,
+      "observed_query_hour": 6,
+      "head1_weight_to_hour18": 0.04178459569811821,
+      "head1_future_max_weight": 0.04262669011950493,
+      "head1_row_weight_sum": 0.9999998807907104,
+      "row6_output_max_abs_difference": 0.013831228017807007
+    },
+    "masked": {
+      "causal_mask": "on",
+      "changed_hour": 18,
+      "observed_query_hour": 6,
+      "head1_weight_to_hour18": 0.0,
+      "head1_future_max_weight": 0.0,
+      "head1_row_weight_sum": 1.0,
+      "row6_output_max_abs_difference": 0.0
+    }
+  },
+  "practice6_shape_trace": {
+    "shapes": {
+      "X": [
+        1,
+        24,
+        16
+      ],
+      "M": [
+        1,
+        24,
+        16
+      ],
+      "H": [
+        1,
+        24,
+        16
+      ],
+      "F": [
+        1,
+        24,
+        16
+      ],
+      "E": [
+        1,
+        24,
+        16
+      ],
+      "last_row": [
+        1,
+        16
+      ],
+      "prediction": [
+        1,
+        1
+      ]
+    },
+    "prediction_standardized": 0.383273720741272,
+    "prediction_ot": 20.645369556706402
+  }
+}
